@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footerbox.container { margin-top:20px; padding:0 inherit;}
+#footer { margin:30px 0 70px 0;}
+#footer * { font-size:12px;}
+#footer a { color:#888888;}
+#footer p, #footer li { color:#666 }
+
+.footer-wrapper { width:980px; display:block; margin:0 auto;}
+.footer-wrapper p { }
+
+#footer ul.footer-links { margin:0; list-style:none; text-align:center;
+font-family:"Tw Cen MT";}
+#footer .footer-links li  { margin:0 8px 0 0; padding:0; float:left; }
+#footer .footer-links li { border-left:1px solid #c8c8c8; padding-left:8px; position:relative}
+#footer .footer-links li:after { content:""; display:block; height:15px; border-left:1px solid #efefef; position:absolute; left:-0px ;top:0}
+#footer .footer-links li:first-child:after {display:none}
+#footer .footer-links li:first-child { border-left:0px; padding-left:0;}
+
+#footer .footer-details { border-bottom:1px solid #c8c8c8; margin-bottom:20px; }
+#footer .footer-details:after { border-bottom:1px solid #efefef;  content:''; display:block;  position:relative; top:2px}
+
+#footer ul.creditcards { margin:0; list-style:none; clear:both; position:relative; top:4px}
+#footer .creditcards li { float:left; margin: 0 10px 0 0;}
+
+#footer ul.socialmedia { margin:0; list-style:none; float:right;}
+#footer ul.socialmedia li {  margin:0  0 0 10px; float:right;}
+

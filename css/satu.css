@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background:#fff;
+}
+
+.all {
+	width:100%;
+}
+
+.submenu{
+	background:url(../images/bg_content.png);
+	color:#C60;
+	border-top: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	}
+
+.header{
+	border-bottom:3px #CCC dashed;
+	padding-bottom:10px;
+	background:transparent;
+	width:1000px;
+}
+
+.content {
+	width:1000px;
+	background:#fff;
+	font-family:"Tw Cen MT";
+	border-bottom:3px #CCC dashed;
+	padding-bottom:310px;
+	}
+.footer {
+	width:1000px;
+	border-top:#ccc 3px dashed;
+	display:block;
+}
+.title {
+	text-align:center;
+	font-family:Allura;
+	font-size:25px;
+	color:#ff9933;

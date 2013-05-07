@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+#container{
+	margin:0 auto;
+	width:auto 900px;
+	background:transparent;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+#content{margin:0 10px;}

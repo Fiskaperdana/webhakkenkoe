@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer {
+	font-family:"Courier New", Courier, monospace;
+	font-size:10px;
+	text-align:center;
+	color:#666;
+	margin-top:25px;
+	border-top:1px solid #bbb;
+	border-top-style:dashed;
+	padding-top:10px;
+	margin-bottom:25px;
+}

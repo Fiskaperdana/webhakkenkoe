@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+.namamenu{
+	font-family:"Gisele Script";
+	font-size:20px;
+	text-align:center;
+	color:#F36;
+	margin-top:0px;
+	margin-bottom:10px;
+	border-top:1px solid #bbb;
+	border-top-style:dashed;
+	border-bottom:1px solid #bbb;
+	border-bottom-style:dashed;
+	padding:10px;
+}
+.lihat{
+	font-family:Playful;
+	font-size:10px;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px;
+}
+a{
+	color:#690;
+}

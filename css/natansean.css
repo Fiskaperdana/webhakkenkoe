@@ -1,0 +1,27 @@
+h1, h2, p, pre {
+	display:block;
+	width:600px;
+}
+h2 {
+	font:200%/1.25em "Tw Cen MT"f;
+	text-align:center;
+	color:#AAA;
+	margin:30px auto 15px;
+}
+p {
+	margin:15px auto;
+	padding:15px;
+}
+	p.highlight {
+	  padding:15px;
+	  background:#FFE;
+	  color:#820;
+	}
+	p.footer {
+		display:block;
+		text-align:center;
+		border:none;
+	}
+pre {
+	margin:15px auto;
+}
