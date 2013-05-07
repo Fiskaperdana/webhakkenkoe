@@ -70,7 +70,7 @@ $data2=mysql_fetch_array($sql2);
 	<tr>
 	<td>Gambar Lama</td>
 	<td>:</td>
-	<td><img src="images/<?php echo $r['gbr_produk'];?>" width="100""></td>
+	<td><img src="images/<?php echo $r['gbr_produk'];?>" width="100"></td>
 	</tr>
     
 	<tr>
