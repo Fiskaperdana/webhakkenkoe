@@ -70,7 +70,8 @@ $r=mysql_fetch_array($sql)
 	<tr>
 	<td>Gambar Lama</td>
 	<td>:</td>
-	<td><img src="images/<?php echo $r['gbr_produk'];?>" width="100""></td>
+	<td>
+	<img src="images/<?php if (!empty ($r['gbr_produk'])) {echo $r['gbr_produk'];} else {echo 'no-image.jpg';}?>" width="100""></td>
 	<input type="hidden" value="<?php echo $r['gbr_produk'];?>" name="noupdate" >
 	</tr>
     
