@@ -109,13 +109,15 @@ $(document).ready(function() {
 
 					          $no = 1;
                     while ($r = mysql_fetch_array($sql)) {
-                      echo "<tr>
+                     echo "<tr>
                             <td width=40>$no</td>
                             <td>$r[nama_ktgproduk]</td>
                             <td>$r[nama_produk]</td>
                             <td>Rp $r[hrg_satuan],00</td>
-                            <td>Rp $r[hrg_lusin],00</td>
-                            <td><img src='images/$r[gbr_produk]' width=50></td>
+                            <td>Rp $r[hrg_lusin],00</td>";?>
+                            <td><img src='images/<?php if (!empty ($r['gbr_produk'])) {echo $r['gbr_produk'];} else {echo 'no-image.jpg';}?>' width=50></td>
+					<?php 
+					echo "
                             <td>$r[waktu]</td>
 							<td><a href='edit_produk.php?id_produk=$r[id_produk]' name='edit'>Edit</a>						
 							</td>
